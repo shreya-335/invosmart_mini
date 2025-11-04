@@ -1,0 +1,53 @@
+{
+  "name": "business-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Business Management System with PostgreSQL",
+  "keywords": [
+    "business",
+    "management",
+    "postgresql",
+    "react",
+    "express"
+  ],
+  "license": "MIT",
+  "author": "Your Name",
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "setup": "node scripts/setup.js",
+    "start": "cd backend && npm start"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "latest",
+    "@tailwindcss/forms": "latest",
+    "@tailwindcss/typography": "latest",
+    "bcryptjs": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-rate-limit": "latest",
+    "express-validator": "latest",
+    "fs": "latest",
+    "helmet": "latest",
+    "jsonwebtoken": "latest",
+    "lucide-react": "^0.454.0",
+    "morgan": "latest",
+    "path": "latest",
+    "pg": "latest",
+    "pg-native": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "recharts": "latest",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "concurrently": "^8.2.0",
+    "postcss": "^8.5",
+    "typescript": "^5"
+  }
+}
